@@ -1,0 +1,30 @@
+# ── Install all these with: ───────────────────────────────────────
+# pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────
+
+chromadb>=0.5.0        # Vector database
+pdf2image>=1.17.0      # Convert PDF pages to images
+Pillow>=10.0.0         # Image processing
+streamlit>=1.35.0      # Web UI
+requests>=2.31.0       # HTTP calls to Mistral API
+python-dotenv>=1.0.0   # Load .env files
+
+# ── Optional: only if using Ollama backend ────────────────────────
+# ollama>=0.2.0        # Uncomment this if you use Ollama
+
+# ─────────────────────────────────────────────────────────────────
+# SYSTEM REQUIREMENT — NOT a pip package:
+# pdf2image needs Poppler installed separately on your system.
+#
+#   Windows:
+#     1. Download: https://github.com/oschwartz10612/poppler-windows/releases
+#     2. Extract zip to C:\poppler\
+#     3. Add C:\poppler\Library\bin to System PATH
+#     4. Restart terminal
+#
+#   Linux/Ubuntu:
+#     sudo apt install poppler-utils
+#
+#   Mac:
+#     brew install poppler
+# ─────────────────────────────────────────────────────────────────
