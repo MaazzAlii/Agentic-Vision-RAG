@@ -179,15 +179,10 @@ Yes. Each page makes one API call to the Vision LLM. A 20-page PDF takes about 2
 **Q: Can I use a different PDF each time?**
 Yes — just upload a new PDF and click Ingest PDF again. It clears the old data automatically.
 
----
-
-## 📸 Screenshots
-
-> Add screenshots of your running app here
 
 ---
 
 ## 👨‍💻 Author
 
 **Maaz** — CS Student @ NUML Islamabad  
-GitHub: github.com/YOUR_USERNAME
+GitHub: github.com/maazzalii
